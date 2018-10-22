@@ -1,1 +1,27 @@
-# Case nr-1
+# **Case Nr-1**
+## **Solution**
+ 1.Different Hardware.
+ 2.Different Operating systems.
+ 3.Different Programming Languages.
+ 4.Different Implementors.
+ 5.Connected to Internet- Internet Protocol will deal the differences.
+ 
+ # **Case Nr-2**
+ ## **Solution**
+ 1.The distributed system uses a common set of communication protocols (probably Internet protocols).
+ 2.It uses an defined standard for representing data items (to deal with heterogeneity of hardware).
+ 3.It uses a common standard for message passing operations (or for invocations).
+ 4.It uses a language independent standard for representing data structures.
+ 5.BLOB must be published, the new and existing clients will access it.
+ 
+ # **Case Nr-3**
+ # **Solution**
+  Accessing a protected operation-
+  1.Identity of the user making the request.
+  2.Verifying the identity of the user, that he is allowed to access the protected operation.
+  3.Ensure that the identity supplied comes from the user it request to be and not from some other user
+    pretending to be that user.
+  4.Stopping others from tampering the requests.
+  5.Information must be protected from unauthorized users.
+  6.Encryption of messages for protected operations.
+ 
